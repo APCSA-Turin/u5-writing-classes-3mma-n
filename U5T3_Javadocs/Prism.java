@@ -1,4 +1,3 @@
-package U5T3_Javadocs;
 
 /**
  * This class represents a prism object
