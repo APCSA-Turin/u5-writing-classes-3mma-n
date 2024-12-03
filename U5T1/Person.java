@@ -1,11 +1,9 @@
 public class Person {
     private String firstName;
-    private String lastName;
     private int meetings;
 
     public Person(String first, String last) {
         firstName = first;
-        lastName = last;
         meetings = 0;
     }
 
