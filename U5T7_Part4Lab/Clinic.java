@@ -6,6 +6,12 @@ public class Clinic {
     private int vaccinesGiven;
     private Person lastPerson;
 
+    public Clinic() {
+        vaccinesGiven = 0;
+        lastPerson = null;
+        totalClinics++;
+    }
+
     public int getVaccinesGiven() {
         return vaccinesGiven;
     }
@@ -28,6 +34,8 @@ public class Clinic {
         }
         patient.becomeVaccinated();
         lastPerson = patient;
+        vaccinesGiven++;
+        totalVaccinesGiven++;
         return true;
     }
 }
